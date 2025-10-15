@@ -1,0 +1,20 @@
+title-nav {
+    text-align: center;
+}
+
+.title-nav h3 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.title-nav p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #848282;
+}
+
+.title-home p {
+    font-size: 1.4rem;
+    color: #4f4f4f;
+}

@@ -290,7 +290,7 @@ function ImagenPrincipal() {
           xs: 5,    // Celular: 40px
           sm: 6,    // Tablet pequeña: 48px  
           md: 8,    // Tablet: 64px
-          lg: 5   // Desktop: 80px
+          lg: 1   // Desktop: 80px
         },
         display: 'flex',
         justifyContent: 'center',
@@ -301,7 +301,7 @@ function ImagenPrincipal() {
         src="./img/logo.gif"
         alt="Imagen Principal"
         style={{
-          width: '80%',
+          width: '70%',
           height: 'auto',
           maxWidth: { 
             xs: '280px',  // Celular
@@ -344,9 +344,9 @@ function TestimoniosSection() {
                   src={`./img/empresas/${item}.png`}
                   alt={`Empresa ${item}`}
                   sx={{
-                    height: 120,
+                    height: 130,
                     width: 'auto',
-                    maxWidth: 150,
+                    maxWidth: 160,
                     
                     opacity: 0.7,
                     transition: 'all 0.3s',

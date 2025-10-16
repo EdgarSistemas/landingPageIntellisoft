@@ -8,6 +8,7 @@ import Empresa from './pages/Empresa/Empresa'
 import Products from './pages/Products/Products'
 import Footer from './pages/Footer/Footer'
 import './App.css'
+import ScrollToTop from './pages/Scroll/ScrollToTop'
 
 
 
@@ -67,6 +68,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline /> 
       <Router>
+        <ScrollToTop />
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />

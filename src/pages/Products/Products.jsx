@@ -17,15 +17,10 @@ function Products() {
         </> 
     );
 }
-
-
-
-
-
 function NuestrosProducts (){
   return (
     <>
-    <Box sx={{ pt: 10, textAlign: "center"}}>
+    <Box sx={{ pt: 5, textAlign: "center"}}>
         <div className="title-nav">
           <h3>Nuestros Productos</h3>
           <p>
@@ -71,7 +66,7 @@ function NuestrosProducts (){
          <LaptopChromebookIcon sx={{ fontSize: 90, color:'#03045e'}}/>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            App Móvil
+            App Web
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' , textAlign: "center"}}>
             Aplicaciones móviles personalizadas para Android que impulsan tu negocio.
@@ -189,9 +184,9 @@ function Tecnologías(){
                           src={`./img/logos/${item}.png`}
                           alt={`Empresa ${item}`}
                           sx={{
-                            height: 120,
+                            height: 'auto',
                             width: 'auto',
-                            maxWidth: 150,
+                            maxWidth: 120,
                             transition: 'all 0.3s',
                             '&:hover': {
                               

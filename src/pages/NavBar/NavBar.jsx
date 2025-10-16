@@ -1,7 +1,6 @@
 import { 
   AppBar, 
   Toolbar, 
-  Typography, 
   Button, 
   Box, 
   IconButton,
@@ -10,7 +9,6 @@ import {
   ListItem,
   ListItemText,
   useTheme,
-  useMediaQuery
 } from '@mui/material';
 import { Link, useLocation } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -19,7 +17,6 @@ import { useState } from 'react';
 const NavBar = () => {
   const location = useLocation();
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const navItems = [
